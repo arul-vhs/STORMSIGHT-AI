@@ -1,0 +1,4359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:kml="http://www.opengis.net/kml/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+        <StyleMap id="map_to_red">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#normal_red</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#bold_red</styleUrl>
+                </Pair>
+        </StyleMap>
+        <StyleMap id="map_to_purple">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#normal_purple</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#bold_purple</styleUrl>
+                </Pair>
+        </StyleMap>
+        <StyleMap id="map_to_yellow">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#normal_yellow</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#bold_yellow</styleUrl>
+                </Pair>
+        </StyleMap>
+        <StyleMap id="map_to_gray">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#normal_gray</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#bold_gray</styleUrl>
+                </Pair>
+        </StyleMap>
+        <Style id="normal_gray">
+                <IconStyle>
+                        <scale>1.1</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff79a1a1</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="bold_gray">
+                <IconStyle>
+                        <scale>1.3</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff79a1a1</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="normal_red">
+                <IconStyle>
+                        <scale>1.1</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="bold_red">
+                <IconStyle>
+                        <scale>1.3</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="normal_purple">
+                <IconStyle>
+                        <scale>1.1</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ffd30094</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="bold_purple">
+                <IconStyle>
+                        <scale>1.3</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ffd30094</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="normal_yellow">
+                <IconStyle>
+                        <scale>1.1</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff00aaff</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+        <Style id="bold_yellow">
+                <IconStyle>
+                        <scale>1.3</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff00aaff</color>
+                        <width>3</width>
+                </LineStyle>
+        </Style>
+<Folder>
+<name>JTWC Best Track Climatology io basin: 2020 - 2020</name>
+<Snippet maxLines="4"></Snippet>
+<description>
+<![CDATA[
+<font color=red>Search Criteria: 
+<font color=black>
+<h3><b>0 TDs Found:</b></h3> 
+<h3><b>1 TSs Found:</b></h3> io052020
+<h3><b>3 TYs Found:</b></h3> io022020 io032020 io042020
+<h3><b>1 STYs Found:</b></h3> io012020
+]]>
+</description>
+<open>1</open>
+    <Folder>
+    <name>2020</name>
+      <Folder>
+      <name>io012020 - AMPHAN</name>
+      <description></description>
+         <Placemark>
+             <name>TC 01B 2020 (AMPHAN)</name>
+             <TimeSpan>
+                  <begin>2020-05-15T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051506Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1007 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.5,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051512</name>
+             <TimeSpan>
+                  <begin>2020-05-15T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051512Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.0,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051518</name>
+             <TimeSpan>
+                  <begin>2020-05-15T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051518Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>86.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1001 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.6,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051600</name>
+             <TimeSpan>
+                  <begin>2020-05-16T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051600Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.7</td></tr>
+		<tr><td><B>LON </B></td><td>86.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>999 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.3,9.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051606</name>
+             <TimeSpan>
+                  <begin>2020-05-16T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051606Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.9</td></tr>
+		<tr><td><B>LON </B></td><td>85.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>997 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>85.9,9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051612</name>
+             <TimeSpan>
+                  <begin>2020-05-16T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051612Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.3</td></tr>
+		<tr><td><B>LON </B></td><td>86.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>992 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.0,10.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051618</name>
+             <TimeSpan>
+                  <begin>2020-05-16T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051618Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.7</td></tr>
+		<tr><td><B>LON </B></td><td>86.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>55</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>987 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.1,10.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051700</name>
+             <TimeSpan>
+                  <begin>2020-05-17T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051700Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.0</td></tr>
+		<tr><td><B>LON </B></td><td>86.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>982 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.2,11.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051706</name>
+             <TimeSpan>
+                  <begin>2020-05-17T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051706Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.4</td></tr>
+		<tr><td><B>LON </B></td><td>86.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>70</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>978 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.3,11.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051712</name>
+             <TimeSpan>
+                  <begin>2020-05-17T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051712Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.8</td></tr>
+		<tr><td><B>LON </B></td><td>86.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>80</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>970 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.4,11.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051718</name>
+             <TimeSpan>
+                  <begin>2020-05-17T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051718Z</td></tr>
+		<tr><td><B>LAT </B></td><td>12.5</td></tr>
+		<tr><td><B>LON </B></td><td>86.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>120</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>932 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.6,12.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051800</name>
+             <TimeSpan>
+                  <begin>2020-05-18T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051800Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.1</td></tr>
+		<tr><td><B>LON </B></td><td>86.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>130</td></tr>
+		<tr><td><B>Development State </B></td><td>ST</td></tr>
+		<tr><td><B>MSLP </B></td><td>919 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ffD30094</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.4,13.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051806</name>
+             <TimeSpan>
+                  <begin>2020-05-18T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051806Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.4</td></tr>
+		<tr><td><B>LON </B></td><td>86.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>140</td></tr>
+		<tr><td><B>Development State </B></td><td>ST</td></tr>
+		<tr><td><B>MSLP </B></td><td>911 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ffD30094</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.2,13.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051812</name>
+             <TimeSpan>
+                  <begin>2020-05-18T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051812Z</td></tr>
+		<tr><td><B>LAT </B></td><td>14.1</td></tr>
+		<tr><td><B>LON </B></td><td>86.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>145</td></tr>
+		<tr><td><B>Development State </B></td><td>ST</td></tr>
+		<tr><td><B>MSLP </B></td><td>901 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ffD30094</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.4,14.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051818</name>
+             <TimeSpan>
+                  <begin>2020-05-18T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051818Z</td></tr>
+		<tr><td><B>LAT </B></td><td>14.8</td></tr>
+		<tr><td><B>LON </B></td><td>86.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>140</td></tr>
+		<tr><td><B>Development State </B></td><td>ST</td></tr>
+		<tr><td><B>MSLP </B></td><td>910 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ffD30094</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.6,14.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051900</name>
+             <TimeSpan>
+                  <begin>2020-05-19T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051900Z</td></tr>
+		<tr><td><B>LAT </B></td><td>15.5</td></tr>
+		<tr><td><B>LON </B></td><td>86.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>125</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>925 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.8,15.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051906</name>
+             <TimeSpan>
+                  <begin>2020-05-19T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051906Z</td></tr>
+		<tr><td><B>LAT </B></td><td>16.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>110</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>941 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.0,16.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051912</name>
+             <TimeSpan>
+                  <begin>2020-05-19T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051912Z</td></tr>
+		<tr><td><B>LAT </B></td><td>17.3</td></tr>
+		<tr><td><B>LON </B></td><td>87.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>105</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>946 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.1,17.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020051918</name>
+             <TimeSpan>
+                  <begin>2020-05-19T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020051918Z</td></tr>
+		<tr><td><B>LAT </B></td><td>18.3</td></tr>
+		<tr><td><B>LON </B></td><td>87.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>105</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>945 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.2,18.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020052000</name>
+             <TimeSpan>
+                  <begin>2020-05-20T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052000Z</td></tr>
+		<tr><td><B>LAT </B></td><td>19.2</td></tr>
+		<tr><td><B>LON </B></td><td>87.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>100</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>947 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.5,19.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020052006</name>
+             <TimeSpan>
+                  <begin>2020-05-20T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052006Z</td></tr>
+		<tr><td><B>LAT </B></td><td>20.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>95</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>953 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.9,20.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020052012</name>
+             <TimeSpan>
+                  <begin>2020-05-20T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052012Z</td></tr>
+		<tr><td><B>LAT </B></td><td>22.2</td></tr>
+		<tr><td><B>LON </B></td><td>88.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>95</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>954 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>88.3,22.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020052018</name>
+             <TimeSpan>
+                  <begin>2020-05-20T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052018Z</td></tr>
+		<tr><td><B>LAT </B></td><td>23.7</td></tr>
+		<tr><td><B>LON </B></td><td>89.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>70</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>974 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>89.1,23.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN): 2020052100</name>
+             <TimeSpan>
+                  <begin>2020-05-21T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052100Z</td></tr>
+		<tr><td><B>LAT </B></td><td>25.2</td></tr>
+		<tr><td><B>LON </B></td><td>90.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>984 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>90.1,25.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 01B (AMPHAN) 05/21-06Z 30kts</name>
+             <TimeSpan>
+                  <begin>2020-05-21T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 01B 2020 - AMPHAN</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 01B (AMPHAN) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020052106Z</td></tr>
+		<tr><td><B>LAT </B></td><td>26.5</td></tr>
+		<tr><td><B>LON </B></td><td>91.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020051506Z-2020052106Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>145 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>901 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>91.4,26.5,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <name>io012020 track</name>
+              <description><![CDATA[
+  <b>System: TC 01B - AMPHAN</b><br>
+  Best Track Duration: 2020051506Z-2020052106Z<br>
+  Maximum Intensity: 145 kts<br>
+  Minimum SLP: 901 mb<br>
+  ]]></description>
+              <Style>
+                 <LineStyle>
+                    <color>ffBFBFBF</color>
+                    <width>1.8</width>
+                 </LineStyle>
+              </Style>
+              <LineString>
+                   <tessellate>1</tessellate>
+                   <coordinates> 87.5,9.5,0 87.0,9.5,0 86.6,9.5,0 86.3,9.7,0 85.9,9.9,0 86.0,10.3,0 86.1,10.7,0 86.2,11.0,0 86.3,11.4,0 86.4,11.8,0 86.6,12.5,0 86.4,13.1,0 86.2,13.4,0 86.4,14.1,0 86.6,14.8,0 86.8,15.5,0 87.0,16.5,0 87.1,17.3,0 87.2,18.3,0 87.5,19.2,0 87.9,20.5,0 88.3,22.2,0 89.1,23.7,0 90.1,25.2,0 91.4,26.5,0</coordinates>
+              </LineString>
+          </Placemark>
+  </Folder> 
+      <Folder>
+      <name>io022020 - NISARGA</name>
+      <description></description>
+         <Placemark>
+             <name>TC 02A 2020 (NISARGA)</name>
+             <TimeSpan>
+                  <begin>2020-05-31T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020053118Z</td></tr>
+		<tr><td><B>LAT </B></td><td>12.9</td></tr>
+		<tr><td><B>LON </B></td><td>72.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1008 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>72.2,12.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060100</name>
+             <TimeSpan>
+                  <begin>2020-06-01T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060100Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.0</td></tr>
+		<tr><td><B>LON </B></td><td>71.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1007 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.7,13.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060106</name>
+             <TimeSpan>
+                  <begin>2020-06-01T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060106Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.2</td></tr>
+		<tr><td><B>LON </B></td><td>71.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1006 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.1,13.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060112</name>
+             <TimeSpan>
+                  <begin>2020-06-01T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060112Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.8</td></tr>
+		<tr><td><B>LON </B></td><td>71.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.1,13.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060118</name>
+             <TimeSpan>
+                  <begin>2020-06-01T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060118Z</td></tr>
+		<tr><td><B>LAT </B></td><td>14.4</td></tr>
+		<tr><td><B>LON </B></td><td>71.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.2,14.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060200</name>
+             <TimeSpan>
+                  <begin>2020-06-02T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060200Z</td></tr>
+		<tr><td><B>LAT </B></td><td>15.0</td></tr>
+		<tr><td><B>LON </B></td><td>71.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>998 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.3,15.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060206</name>
+             <TimeSpan>
+                  <begin>2020-06-02T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060206Z</td></tr>
+		<tr><td><B>LAT </B></td><td>15.7</td></tr>
+		<tr><td><B>LON </B></td><td>71.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>997 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.3,15.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060212</name>
+             <TimeSpan>
+                  <begin>2020-06-02T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060212Z</td></tr>
+		<tr><td><B>LAT </B></td><td>16.3</td></tr>
+		<tr><td><B>LON </B></td><td>71.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>993 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.4,16.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060218</name>
+             <TimeSpan>
+                  <begin>2020-06-02T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060218Z</td></tr>
+		<tr><td><B>LAT </B></td><td>16.7</td></tr>
+		<tr><td><B>LON </B></td><td>71.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>987 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>71.7,16.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060300</name>
+             <TimeSpan>
+                  <begin>2020-06-03T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060300Z</td></tr>
+		<tr><td><B>LAT </B></td><td>17.3</td></tr>
+		<tr><td><B>LON </B></td><td>72.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>75</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>974 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>72.2,17.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060306</name>
+             <TimeSpan>
+                  <begin>2020-06-03T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060306Z</td></tr>
+		<tr><td><B>LAT </B></td><td>18.0</td></tr>
+		<tr><td><B>LON </B></td><td>72.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>85</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>968 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>72.9,18.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060312</name>
+             <TimeSpan>
+                  <begin>2020-06-03T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060312Z</td></tr>
+		<tr><td><B>LAT </B></td><td>19.1</td></tr>
+		<tr><td><B>LON </B></td><td>73.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>70</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>979 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>73.7,19.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060318</name>
+             <TimeSpan>
+                  <begin>2020-06-03T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060318Z</td></tr>
+		<tr><td><B>LAT </B></td><td>20.1</td></tr>
+		<tr><td><B>LON </B></td><td>74.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>988 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>74.5,20.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA): 2020060400</name>
+             <TimeSpan>
+                  <begin>2020-06-04T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060400Z</td></tr>
+		<tr><td><B>LAT </B></td><td>21.2</td></tr>
+		<tr><td><B>LON </B></td><td>76.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>996 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>76.0,21.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 02A (NISARGA) 06/04-06Z 20kts</name>
+             <TimeSpan>
+                  <begin>2020-06-04T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 02A 2020 - NISARGA</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 02A (NISARGA) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020060406Z</td></tr>
+		<tr><td><B>LAT </B></td><td>22.5</td></tr>
+		<tr><td><B>LON </B></td><td>77.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020053118Z-2020060406Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>85 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>968 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>77.5,22.5,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <name>io022020 track</name>
+              <description><![CDATA[
+  <b>System: TC 02A - NISARGA</b><br>
+  Best Track Duration: 2020053118Z-2020060406Z<br>
+  Maximum Intensity: 85 kts<br>
+  Minimum SLP: 968 mb<br>
+  ]]></description>
+              <Style>
+                 <LineStyle>
+                    <color>ffBFBFBF</color>
+                    <width>1.8</width>
+                 </LineStyle>
+              </Style>
+              <LineString>
+                   <tessellate>1</tessellate>
+                   <coordinates> 72.2,12.9,0 71.7,13.0,0 71.1,13.2,0 71.1,13.8,0 71.2,14.4,0 71.3,15.0,0 71.3,15.7,0 71.4,16.3,0 71.7,16.7,0 72.2,17.3,0 72.9,18.0,0 73.7,19.1,0 74.5,20.1,0 76.0,21.2,0 77.5,22.5,0</coordinates>
+              </LineString>
+          </Placemark>
+  </Folder> 
+      <Folder>
+      <name>io032020 - GATI</name>
+      <description></description>
+         <Placemark>
+             <name>TC 03A 2020 (GATI)</name>
+             <TimeSpan>
+                  <begin>2020-11-20T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112012Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.2</td></tr>
+		<tr><td><B>LON </B></td><td>62.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1008 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>62.6,11.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112018</name>
+             <TimeSpan>
+                  <begin>2020-11-20T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112018Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.9</td></tr>
+		<tr><td><B>LON </B></td><td>61.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1006 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>61.7,10.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112100</name>
+             <TimeSpan>
+                  <begin>2020-11-21T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112100Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.3</td></tr>
+		<tr><td><B>LON </B></td><td>60.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1004 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>60.6,11.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112106</name>
+             <TimeSpan>
+                  <begin>2020-11-21T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112106Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.3</td></tr>
+		<tr><td><B>LON </B></td><td>58.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>58.8,11.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112112</name>
+             <TimeSpan>
+                  <begin>2020-11-21T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112112Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.3</td></tr>
+		<tr><td><B>LON </B></td><td>57.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>57.1,11.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112118</name>
+             <TimeSpan>
+                  <begin>2020-11-21T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112118Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.8</td></tr>
+		<tr><td><B>LON </B></td><td>55.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>55.4,10.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112200</name>
+             <TimeSpan>
+                  <begin>2020-11-22T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112200Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.6</td></tr>
+		<tr><td><B>LON </B></td><td>53.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>992 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>53.8,10.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112206</name>
+             <TimeSpan>
+                  <begin>2020-11-22T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112206Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.4</td></tr>
+		<tr><td><B>LON </B></td><td>52.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>100</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>967 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>52.5,10.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112212</name>
+             <TimeSpan>
+                  <begin>2020-11-22T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112212Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.4</td></tr>
+		<tr><td><B>LON </B></td><td>51.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>90</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>974 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>51.5,10.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112218</name>
+             <TimeSpan>
+                  <begin>2020-11-22T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112218Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.4</td></tr>
+		<tr><td><B>LON </B></td><td>50.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>65</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>992 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>50.6,10.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112300</name>
+             <TimeSpan>
+                  <begin>2020-11-23T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112300Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.8</td></tr>
+		<tr><td><B>LON </B></td><td>49.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>49.9,10.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112306</name>
+             <TimeSpan>
+                  <begin>2020-11-23T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112306Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.3</td></tr>
+		<tr><td><B>LON </B></td><td>49.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>49.3,11.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112312</name>
+             <TimeSpan>
+                  <begin>2020-11-23T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112312Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.6</td></tr>
+		<tr><td><B>LON </B></td><td>48.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>48.6,11.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112318</name>
+             <TimeSpan>
+                  <begin>2020-11-23T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112318Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.9</td></tr>
+		<tr><td><B>LON </B></td><td>47.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1007 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>47.5,11.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112400</name>
+             <TimeSpan>
+                  <begin>2020-11-24T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112400Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.4</td></tr>
+		<tr><td><B>LON </B></td><td>46.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1009 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>46.7,11.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI): 2020112406</name>
+             <TimeSpan>
+                  <begin>2020-11-24T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112406Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.9</td></tr>
+		<tr><td><B>LON </B></td><td>46.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1011 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>46.5,10.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 03A (GATI) 11/24-12Z 15kts</name>
+             <TimeSpan>
+                  <begin>2020-11-24T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 03A 2020 - GATI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 03A (GATI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112412Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.4</td></tr>
+		<tr><td><B>LON </B></td><td>46.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112012Z-2020112412Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>15</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1013 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>100 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>967 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>46.3,10.4,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <name>io032020 track</name>
+              <description><![CDATA[
+  <b>System: TC 03A - GATI</b><br>
+  Best Track Duration: 2020112012Z-2020112412Z<br>
+  Maximum Intensity: 100 kts<br>
+  Minimum SLP: 967 mb<br>
+  ]]></description>
+              <Style>
+                 <LineStyle>
+                    <color>ffBFBFBF</color>
+                    <width>1.8</width>
+                 </LineStyle>
+              </Style>
+              <LineString>
+                   <tessellate>1</tessellate>
+                   <coordinates> 62.6,11.2,0 61.7,10.9,0 60.6,11.3,0 58.8,11.3,0 57.1,11.3,0 55.4,10.8,0 53.8,10.6,0 52.5,10.4,0 51.5,10.4,0 50.6,10.4,0 49.9,10.8,0 49.3,11.3,0 48.6,11.6,0 47.5,11.9,0 46.7,11.4,0 46.5,10.9,0 46.3,10.4,0</coordinates>
+              </LineString>
+          </Placemark>
+  </Folder> 
+      <Folder>
+      <name>io042020 - NIVAR</name>
+      <description></description>
+         <Placemark>
+             <name>TC 04B 2020 (NIVAR)</name>
+             <TimeSpan>
+                  <begin>2020-11-22T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112206Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.8</td></tr>
+		<tr><td><B>LON </B></td><td>86.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1007 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.1,7.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112212</name>
+             <TimeSpan>
+                  <begin>2020-11-22T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112212Z</td></tr>
+		<tr><td><B>LAT </B></td><td>8.5</td></tr>
+		<tr><td><B>LON </B></td><td>85.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1007 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>85.6,8.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112218</name>
+             <TimeSpan>
+                  <begin>2020-11-22T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112218Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.0</td></tr>
+		<tr><td><B>LON </B></td><td>85.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1008 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>85.1,9.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112300</name>
+             <TimeSpan>
+                  <begin>2020-11-23T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112300Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.3</td></tr>
+		<tr><td><B>LON </B></td><td>84.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>84.6,9.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112306</name>
+             <TimeSpan>
+                  <begin>2020-11-23T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112306Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.6</td></tr>
+		<tr><td><B>LON </B></td><td>83.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.9,9.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112312</name>
+             <TimeSpan>
+                  <begin>2020-11-23T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112312Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.9</td></tr>
+		<tr><td><B>LON </B></td><td>83.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.7,9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112318</name>
+             <TimeSpan>
+                  <begin>2020-11-23T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112318Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.9</td></tr>
+		<tr><td><B>LON </B></td><td>83.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1004 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.6,9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112400</name>
+             <TimeSpan>
+                  <begin>2020-11-24T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112400Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.7</td></tr>
+		<tr><td><B>LON </B></td><td>83.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.4,9.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112406</name>
+             <TimeSpan>
+                  <begin>2020-11-24T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112406Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.6</td></tr>
+		<tr><td><B>LON </B></td><td>83.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.2,9.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112412</name>
+             <TimeSpan>
+                  <begin>2020-11-24T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112412Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.9</td></tr>
+		<tr><td><B>LON </B></td><td>83.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>45</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>995 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.0,9.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112418</name>
+             <TimeSpan>
+                  <begin>2020-11-24T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112418Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.2</td></tr>
+		<tr><td><B>LON </B></td><td>82.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>994 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>82.8,10.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112500</name>
+             <TimeSpan>
+                  <begin>2020-11-25T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112500Z</td></tr>
+		<tr><td><B>LAT </B></td><td>10.7</td></tr>
+		<tr><td><B>LON </B></td><td>82.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>988 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>82.4,10.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112506</name>
+             <TimeSpan>
+                  <begin>2020-11-25T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112506Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.2</td></tr>
+		<tr><td><B>LON </B></td><td>81.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>990 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>81.5,11.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112512</name>
+             <TimeSpan>
+                  <begin>2020-11-25T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112512Z</td></tr>
+		<tr><td><B>LAT </B></td><td>11.6</td></tr>
+		<tr><td><B>LON </B></td><td>81.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>70</td></tr>
+		<tr><td><B>Development State </B></td><td>TY</td></tr>
+		<tr><td><B>MSLP </B></td><td>982 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff0000ff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TYwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>81.1,11.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112518</name>
+             <TimeSpan>
+                  <begin>2020-11-25T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112518Z</td></tr>
+		<tr><td><B>LAT </B></td><td>12.1</td></tr>
+		<tr><td><B>LON </B></td><td>80.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>60</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>989 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.6,12.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112600</name>
+             <TimeSpan>
+                  <begin>2020-11-26T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112600Z</td></tr>
+		<tr><td><B>LAT </B></td><td>12.6</td></tr>
+		<tr><td><B>LON </B></td><td>80.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>50</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>993 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.2,12.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112606</name>
+             <TimeSpan>
+                  <begin>2020-11-26T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112606Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.1</td></tr>
+		<tr><td><B>LON </B></td><td>79.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>45</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>996 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>79.9,13.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112612</name>
+             <TimeSpan>
+                  <begin>2020-11-26T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112612Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.4</td></tr>
+		<tr><td><B>LON </B></td><td>80.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1001 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.1,13.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112618</name>
+             <TimeSpan>
+                  <begin>2020-11-26T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112618Z</td></tr>
+		<tr><td><B>LAT </B></td><td>13.7</td></tr>
+		<tr><td><B>LON </B></td><td>80.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.5,13.7,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112700</name>
+             <TimeSpan>
+                  <begin>2020-11-27T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112700Z</td></tr>
+		<tr><td><B>LAT </B></td><td>14.0</td></tr>
+		<tr><td><B>LON </B></td><td>80.7</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.7,14.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR): 2020112706</name>
+             <TimeSpan>
+                  <begin>2020-11-27T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112706Z</td></tr>
+		<tr><td><B>LAT </B></td><td>14.4</td></tr>
+		<tr><td><B>LON </B></td><td>80.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1004 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.5,14.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 04B (NIVAR) 11/27-12Z 20kts</name>
+             <TimeSpan>
+                  <begin>2020-11-27T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 04B 2020 - NIVAR</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 04B (NIVAR) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112712Z</td></tr>
+		<tr><td><B>LAT </B></td><td>15.0</td></tr>
+		<tr><td><B>LON </B></td><td>80.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112206Z-2020112712Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1009 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>70 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>982 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.1,15.0,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <name>io042020 track</name>
+              <description><![CDATA[
+  <b>System: TC 04B - NIVAR</b><br>
+  Best Track Duration: 2020112206Z-2020112712Z<br>
+  Maximum Intensity: 70 kts<br>
+  Minimum SLP: 982 mb<br>
+  ]]></description>
+              <Style>
+                 <LineStyle>
+                    <color>ffBFBFBF</color>
+                    <width>1.8</width>
+                 </LineStyle>
+              </Style>
+              <LineString>
+                   <tessellate>1</tessellate>
+                   <coordinates> 86.1,7.8,0 85.6,8.5,0 85.1,9.0,0 84.6,9.3,0 83.9,9.6,0 83.7,9.9,0 83.6,9.9,0 83.4,9.7,0 83.2,9.6,0 83.0,9.9,0 82.8,10.2,0 82.4,10.7,0 81.5,11.2,0 81.1,11.6,0 80.6,12.1,0 80.2,12.6,0 79.9,13.1,0 80.1,13.4,0 80.5,13.7,0 80.7,14.0,0 80.5,14.4,0 80.1,15.0,0</coordinates>
+              </LineString>
+          </Placemark>
+  </Folder> 
+      <Folder>
+      <name>io052020 - BUREVI</name>
+      <description></description>
+         <Placemark>
+             <name>TC 05B 2020 (BUREVI)</name>
+             <TimeSpan>
+                  <begin>2020-11-29T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112912Z</td></tr>
+		<tr><td><B>LAT </B></td><td>6.4</td></tr>
+		<tr><td><B>LON </B></td><td>90.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>10</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1014 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>90.4,6.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020112918</name>
+             <TimeSpan>
+                  <begin>2020-11-29T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020112918Z</td></tr>
+		<tr><td><B>LAT </B></td><td>6.9</td></tr>
+		<tr><td><B>LON </B></td><td>89.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1008 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>89.1,6.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020113000</name>
+             <TimeSpan>
+                  <begin>2020-11-30T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020113000Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>15</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1008 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.8,7.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020113006</name>
+             <TimeSpan>
+                  <begin>2020-11-30T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020113006Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.5</td></tr>
+		<tr><td><B>LON </B></td><td>87.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1006 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.4,7.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020113012</name>
+             <TimeSpan>
+                  <begin>2020-11-30T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020113012Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.3</td></tr>
+		<tr><td><B>LON </B></td><td>87.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>87.2,7.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020113018</name>
+             <TimeSpan>
+                  <begin>2020-11-30T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020113018Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.2</td></tr>
+		<tr><td><B>LON </B></td><td>86.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1006 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.9,7.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120100</name>
+             <TimeSpan>
+                  <begin>2020-12-01T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120100Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.0</td></tr>
+		<tr><td><B>LON </B></td><td>86.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>86.2,7.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120106</name>
+             <TimeSpan>
+                  <begin>2020-12-01T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120106Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.1</td></tr>
+		<tr><td><B>LON </B></td><td>85.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>85.5,7.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120112</name>
+             <TimeSpan>
+                  <begin>2020-12-01T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120112Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.5</td></tr>
+		<tr><td><B>LON </B></td><td>84.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>84.9,7.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120118</name>
+             <TimeSpan>
+                  <begin>2020-12-01T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120118Z</td></tr>
+		<tr><td><B>LAT </B></td><td>7.9</td></tr>
+		<tr><td><B>LON </B></td><td>84.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1001 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>84.3,7.9,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120200</name>
+             <TimeSpan>
+                  <begin>2020-12-02T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120200Z</td></tr>
+		<tr><td><B>LAT </B></td><td>8.3</td></tr>
+		<tr><td><B>LON </B></td><td>83.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>45</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>999 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.6,8.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120206</name>
+             <TimeSpan>
+                  <begin>2020-12-02T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120206Z</td></tr>
+		<tr><td><B>LAT </B></td><td>8.6</td></tr>
+		<tr><td><B>LON </B></td><td>83.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>83.0,8.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120212</name>
+             <TimeSpan>
+                  <begin>2020-12-02T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120212Z</td></tr>
+		<tr><td><B>LAT </B></td><td>8.8</td></tr>
+		<tr><td><B>LON </B></td><td>82.3</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>82.3,8.8,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120218</name>
+             <TimeSpan>
+                  <begin>2020-12-02T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120218Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.0</td></tr>
+		<tr><td><B>LON </B></td><td>81.4</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1001 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>81.4,9.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120300</name>
+             <TimeSpan>
+                  <begin>2020-12-03T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120300Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.0</td></tr>
+		<tr><td><B>LON </B></td><td>80.6</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>40</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.6,9.0,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120306</name>
+             <TimeSpan>
+                  <begin>2020-12-03T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120306Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.4</td></tr>
+		<tr><td><B>LON </B></td><td>80.5</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1004 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.5,9.4,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120312</name>
+             <TimeSpan>
+                  <begin>2020-12-03T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120312Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.6</td></tr>
+		<tr><td><B>LON </B></td><td>80.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1001 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.1,9.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120318</name>
+             <TimeSpan>
+                  <begin>2020-12-03T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120318Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>80.0</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.0,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120400</name>
+             <TimeSpan>
+                  <begin>2020-12-04T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120400Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.3</td></tr>
+		<tr><td><B>LON </B></td><td>79.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1000 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>79.9,9.3,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120406</name>
+             <TimeSpan>
+                  <begin>2020-12-04T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120406Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.2</td></tr>
+		<tr><td><B>LON </B></td><td>79.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>35</td></tr>
+		<tr><td><B>Development State </B></td><td>TS</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff00aaff</color>
+                   <scale>1.2</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TSwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>79.9,9.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120409</name>
+             <TimeSpan>
+                  <begin>2020-12-04T09:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120409Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>80.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>30</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1004 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.2,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120412</name>
+             <TimeSpan>
+                  <begin>2020-12-04T12:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120412Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.6</td></tr>
+		<tr><td><B>LON </B></td><td>80.2</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.2,9.6,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120418</name>
+             <TimeSpan>
+                  <begin>2020-12-04T18:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120418Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.2</td></tr>
+		<tr><td><B>LON </B></td><td>79.8</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1002 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>79.8,9.2,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI): 2020120500</name>
+             <TimeSpan>
+                  <begin>2020-12-05T00:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120500Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.1</td></tr>
+		<tr><td><B>LON </B></td><td>79.9</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>25</td></tr>
+		<tr><td><B>Development State </B></td><td>TD</td></tr>
+		<tr><td><B>MSLP </B></td><td>1003 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>79.9,9.1,0</coordinates>
+              </Point>
+          </Placemark>
+         <Placemark>
+             <name>TC 05B (BUREVI) 12/05-06Z 20kts</name>
+             <TimeSpan>
+                  <begin>2020-12-05T06:00:00Z</begin>
+                  <end>2020-12-31T23:59:59Z</end>
+             </TimeSpan>
+             <description><![CDATA[<head><title><B>System: TC 05B 2020 - BUREVI</B></title></head>
+		<table width="500" bgcolor="white" border="1">
+		<tr><td><B>TC 05B (BUREVI) </B></td></tr>
+		<tr><td><B>DTG </B></td><td>2020120506Z</td></tr>
+		<tr><td><B>LAT </B></td><td>9.5</td></tr>
+		<tr><td><B>LON </B></td><td>80.1</td></tr>
+		<tr><td><B>Best Track Duration </B></td><td>2020112912Z-2020120506Z</td></tr>
+		<tr><td><B>Intensity </B></td><td>20</td></tr>
+		<tr><td><B>Development State </B></td><td>DB</td></tr>
+		<tr><td><B>MSLP </B></td><td>1005 mb</td></tr>
+		<tr><td><B>Maximum Intensity </B></td><td>45 kts</td></tr>
+		<tr><td><B>Minimum SLP </B></td><td>999 mb</td></tr>
+		<tr><td><B> </B></td></tr>
+		</table></body></html>]]></description>
+              <Style>
+                 <BalloonStyle>
+                       <text>$[description]</text>
+                       <bgColor>ffd9d1d1</bgColor>
+                 </BalloonStyle>
+                 <IconStyle>
+                   <color>ff79A1A1</color>
+                   <scale>0.9</scale>
+                   <heading>0</heading>
+                   <Icon>icons/TDwhite.png</Icon>  
+                </IconStyle>
+                <LabelStyle>
+                   <scale>0</scale>
+                </LabelStyle>
+              </Style>
+              <Point>
+                   <coordinates>80.1,9.5,0</coordinates>
+              </Point>
+          </Placemark>
+          <Placemark>
+              <name>io052020 track</name>
+              <description><![CDATA[
+  <b>System: TC 05B - BUREVI</b><br>
+  Best Track Duration: 2020112912Z-2020120506Z<br>
+  Maximum Intensity: 45 kts<br>
+  Minimum SLP: 999 mb<br>
+  ]]></description>
+              <Style>
+                 <LineStyle>
+                    <color>ffBFBFBF</color>
+                    <width>1.8</width>
+                 </LineStyle>
+              </Style>
+              <LineString>
+                   <tessellate>1</tessellate>
+                   <coordinates> 90.4,6.4,0 89.1,6.9,0 87.8,7.5,0 87.4,7.5,0 87.2,7.3,0 86.9,7.2,0 86.2,7.0,0 85.5,7.1,0 84.9,7.5,0 84.3,7.9,0 83.6,8.3,0 83.0,8.6,0 82.3,8.8,0 81.4,9.0,0 80.6,9.0,0 80.5,9.4,0 80.1,9.6,0 80.0,9.5,0 79.9,9.3,0 79.9,9.2,0 80.2,9.5,0 80.2,9.6,0 79.8,9.2,0 79.9,9.1,0 80.1,9.5,0</coordinates>
+              </LineString>
+          </Placemark>
+  </Folder> 
+  </Folder> 
+  <ScreenOverlay>
+	<name>JTWC Logo</name>
+	<Icon>
+		<href>icons/JTWCtranslogo.png</href>
+	</Icon>
+	<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<screenXY x="0.02" y="0.025" xunits="fraction" yunits="fraction"/>
+	<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<size x="0.1" y="0" xunits="fraction" yunits="fraction"/>
+  </ScreenOverlay>
+  <ScreenOverlay>
+	<name>Intensity Legend</name>
+	<Icon>
+		<href>icons/IntensityLegend.png</href>
+	</Icon>
+	<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<screenXY x="0.79" y="0.025" xunits="fraction" yunits="fraction"/>
+	<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+	<size x=".20" y="0" xunits="fraction" yunits="fraction"/>
+  </ScreenOverlay>
+</Folder> 
+</kml> 
